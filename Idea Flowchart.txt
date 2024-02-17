@@ -1,0 +1,15 @@
+**** PDF Query with Langchain and CassandraDB [Astra DB] ****
+
+
+1. PDF --> Read the document --> [Text Chunks], [Text Chunks], [Text Chunks], .... [Text Chunks]
+2. Convert them into text embeddings using OPENAI embeddings [which helps to convert text into vectors]
+
+                             --> [Text Embedding - 1], [Text Embedding - 2], [Text Embedding - 3], .... [Text Embedding - n]
+
+3. All the Text Embedding --> store in it a vector database [CassandraDB/AstraDB]
+
+4. After storing in vector DB,
+        User --> [Text + Query] --> [Similarity Search + Text Embeddings] --> Search in DB --> DataStax --> Vector Search
+
+
+
