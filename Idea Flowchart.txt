@@ -1,4 +1,4 @@
-**** PDF Query with Langchain and CassandraDB [Astra DB] ****
+***** PDF Query with Langchain and CassandraDB [Astra DB] *****
 
 
 1. PDF --> Read the document --> [Text Chunks], [Text Chunks], [Text Chunks], .... [Text Chunks]
